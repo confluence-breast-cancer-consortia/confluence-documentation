@@ -4,8 +4,6 @@
 
 * [The Confluence project](README.md)
 
-## Copy of Introduction
-
 ## Analysis
 
 * [GitHub Code Contributing Guidelines](policies/github-code-contributing-guidelines.md)
