@@ -29,7 +29,9 @@ See [here](https://raw.githubusercontent.com/shukwong/pipelines/master/docker_im
 ```
 {% endcode %}
 
+### Using reproducible environment in R projects
 
+We can use the `renv` package to create and use the same R environment for our R projects. This idea is also shared in the following DNANexus UKBiobank tutorial [https://github.com/dnanexus/UKB\_RAP/blob/main/rstudio\_demo/renv\_reproducible\_environments.Rmd](https://github.com/dnanexus/UKB\_RAP/blob/main/rstudio\_demo/renv\_reproducible\_environments.Rmd)
 
 ### Monitoring analysis progress
 
