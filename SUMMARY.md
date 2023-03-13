@@ -18,7 +18,10 @@
 
 ***
 
-* [Tutorial](tutorial/README.md)
-  * [DNANexus account set up](tutorial/dnanexus-account-set-up.md)
+* [Demo](demo/README.md)
+  * [DNANexus account set up](demo/dnanexus-account-set-up.md)
+  * [dx-toolkit](demo/dx-toolkit.md)
+  * [Access to data](demo/access-to-data.md)
+  * [DNANexus Apps and Applets](demo/dnanexus-apps-and-applets.md)
 * [Github](https://github.com/confluence-breast-cancer-consortia)
 * [The Confluence project website](https://confluence.cancer.gov/)
