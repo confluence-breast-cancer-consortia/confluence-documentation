@@ -22,5 +22,9 @@ The dx-toolkit is a convenient way to interact with the DNANexus cloud platform 
 
 ### Example
 
-Here is a bash [script example ](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/scripts/run\_plink.sh)for running plink2 using the dx-toolkit.
+Here is a bash [script example ](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/scripts/run\_plink.sh)for running plink2 using the dx-toolkit with the swiss-knife app.
+
+
+
+.
 
