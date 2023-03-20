@@ -6,4 +6,4 @@ For the Confluence project on DNANexus, we have two types of projects, namely, d
 
 ![](../.gitbook/assets/dnanexus\_project\_structure.png)
 
-This simple Jupyter notebook shows how to copy data from the _**demo\_data**_ project into the virtual machine hosting JupyterLab, run the analysis, and copy the results to the _**demo\_analysis**_ project.  &#x20;
+This simple [Jupyter notebook](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/notebooks/bash\_demo.ipynb) shows how to copy data from the _**demo\_data**_ project into the virtual machine hosting JupyterLab, run the analysis, and copy the results to the _**demo\_analysis**_ project.  &#x20;
