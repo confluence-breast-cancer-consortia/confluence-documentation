@@ -12,5 +12,13 @@ conda activate dx
 pip install dxpy
 ```
 
+### Usage
+
+The dx-toolkit is a convenient way to interact with the DNANexus cloud platform and can almost feel like working on a HPC cluster with commands prefixed with 'dx'. It can be utilized for various ways:
+
+1. Data Management: For example, using the `dx upload` and `dx download` command-line tools to transfer files, as well as  using the `dx describe` and `dx set_properties` commands to manage metadata associated with the files.
+2. Workflow Execution: We can use  the `dx find apps` and `dx run` commands to find and run apps from the DNAnexus app store,  using the `dx new workflow` command to create a new workflow with custom apps, using the `dx wait` and `dx watch` commands to monitor the progress of the workflow execution.&#x20;
+3. Custom App Development: using the `dx build` and `dx add app` commands to build DNANexus Apps (more on this in the later chapters)
+
 
 
