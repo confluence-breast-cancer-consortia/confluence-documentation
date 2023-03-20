@@ -20,5 +20,7 @@ The dx-toolkit is a convenient way to interact with the DNANexus cloud platform 
 2. Workflow Execution: We can use  the `dx find apps` and `dx run` commands to find and run apps from the DNAnexus app store,  using the `dx new workflow` command to create a new workflow with custom apps, using the `dx wait` and `dx watch` commands to monitor the progress of the workflow execution.&#x20;
 3. Custom App Development: using the `dx build` and `dx add app` commands to build DNANexus Apps (more on this in the later chapters)
 
+### Example
 
+Here is a bash [script example ](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/scripts/run\_plink.sh)for running plink2 using the dx-toolkit.
 
