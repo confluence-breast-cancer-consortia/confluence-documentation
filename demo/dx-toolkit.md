@@ -26,7 +26,11 @@ The dx-toolkit is a convenient way to interact with the DNANexus cloud platform 
 
 ### Cost
 
-Currently, We cannot set the spending limit for a project in DNANexus, so a good practice would be setting the cost limit for each analysis, as shown below. The same command in a [bash script ](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/scripts/run\_plink.sh)is also on the Confluence GitHub.
+Currently, We cannot set the spending limit for a project in DNANexus, so a good practice would be setting the cost limit for each analysis, as shown below. The same command in a [bash script ](https://github.com/confluence-breast-cancer-consortia/dnanexus\_demo/blob/main/scripts/run\_plink.sh)is also on the Confluence GitHub.&#x20;
+
+{% hint style="info" %}
+We recommend testing your script on small sample datasets with cost-limit before running it on the large dataset.
+{% endhint %}
 
 ```
 // adding --cost-limit to limit the cost of an analysis
