@@ -39,3 +39,18 @@ dx run app-swiss-army-knife \
    --cost-limit 10
 ```
 
+### A simple example for submitting parallel jobs and using a Docker image
+
+```
+// This example shows how to loop through 3 chromosomes, 
+and run the RScript on each one of them by passing the ${chrom} variable to dx run.
+It also shows that you can pass the docker image so that the job will be run using 
+the container
+
+for chrom in 1 2 3; do \
+dx run app-swiss-army-knife \
+   -iimage="shukwong/rstudio_with_gwas_tools:fd324eb9d3d2117fc37a157b66fa371a53693442" \
+   -iin=scripts/test_writing_output.R
+   -icmd="Rscript test_writing_output.R ${chrom}" -y; \
+Done
+```
