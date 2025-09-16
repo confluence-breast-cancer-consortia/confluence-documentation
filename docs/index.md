@@ -7,3 +7,4 @@ Broad scientific aims include:
 * To discover susceptibility loci and advance knowledge of etiology of breast cancer overall and by subtypes.
 * To develop polygenic risk scores and integrate them with known risk factors for personalized risk assessment for breast cancer overall and by subtypes.
 * To discover loci for breast cancer prognosis, long-term survival, response to treatment, and second breast cancer.
+
