@@ -1,2 +1,0 @@
-# The DNANexus Analysis Platform
-
