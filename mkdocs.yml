@@ -1,0 +1,73 @@
+site_name: The Confluence Project Documentation
+site_description: Documentation for the Confluence breast cancer genetics research project
+site_url: https://confluence-breast-cancer-consortia.github.io/confluence-documentation/
+
+repo_name: confluence-breast-cancer-consortia/confluence-documentation
+repo_url: https://github.com/confluence-breast-cancer-consortia/confluence-documentation
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Analysis:
+      - GitHub Code Contributing Guidelines: policies/github-code-contributing-guidelines.md
+      - GitHub Analysis Repository Organization: analysis/github-analysis-repository-organization.md
+      - The DNANexus Analysis Platform:
+          - Overview: analysis/the-dnanexus-analysis-platform/overview.md
+          - Managing Data and Results: analysis/the-dnanexus-analysis-platform/managing-data-and-results-on-dnanexus.md
+          - Analysis on DNAnexus: analysis/the-dnanexus-analysis-platform/analysis-on-dnanexus.md
+          - Running Tools: analysis/the-dnanexus-analysis-platform/running-tools-on-dnanexus.md
+          - Workflows: analysis/the-dnanexus-analysis-platform/workflows-on-dnanexus.md
+          - Guides and Tutorials: analysis/the-dnanexus-analysis-platform/dnanexus-guides-and-tutorials-links.md
+  - Demo:
+      - Overview: demo/index.md
+      - DNANexus Account Setup: demo/dnanexus-account-set-up.md
+      - dx-toolkit: demo/dx-toolkit.md
+      - Access to Data: demo/access-to-data.md
+      - DNANexus Apps and Applets: demo/dnanexus-apps-and-applets.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/confluence-breast-cancer-consortia
+    - icon: fontawesome/solid/globe
+      link: https://confluence.cancer.gov/
