@@ -1,3 +1,3 @@
 # The Confluence project Documentation
 
-- Note that current development is on branch v1
+- Note that current development is on branch mkdocs-conversion
