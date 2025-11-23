@@ -46,7 +46,7 @@ dx run app-swiss-army-knife \
    -iimage="ghcr.io/confluence-breast-cancer-consortia/rstudio_with_gwas_tools:v1.0" \
    -iin=tools/scripts/manhattan_qq_plot.R \
    -iin=<project_name>:<path_to_summary_stat_file> \
-   -icmd="Rscript --input_file <summary_stat_file> --outdir <output_directory> --num_cases <num_cases> --num_controls <num_controls>" \
+   -icmd="Rscript manhattan_qq_plot.R --input_file <summary_stat_file> --outdir <output_directory> --num_cases <num_cases> --num_controls <num_controls>" \
    --destination <project_name>:/<output_directory_on_dnanexus> -y 
 ```   
 
