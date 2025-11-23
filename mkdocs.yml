@@ -57,6 +57,7 @@ nav:
           - Analysis on DNAnexus: analysis/the-dnanexus-analysis-platform/analysis-on-dnanexus.md
           - Running Tools: analysis/the-dnanexus-analysis-platform/running-tools-on-dnanexus.md
           - Workflows: analysis/the-dnanexus-analysis-platform/workflows-on-dnanexus.md
+          - Confluence Workflows and Tools: analysis/the-dnanexus-analysis-platform/confluence-workflows-and-tools.md
           - Guides and Tutorials: analysis/the-dnanexus-analysis-platform/dnanexus-guides-and-tutorials-links.md
   - Demo:
       - Overview: demo/index.md
