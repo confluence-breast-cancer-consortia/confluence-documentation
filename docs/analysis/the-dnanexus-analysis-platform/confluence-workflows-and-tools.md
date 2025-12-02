@@ -27,7 +27,7 @@ dx run applet-J3264V04kqq6GZKYYbB4jY58 \
     --phenotypes_columns BreastCancer --phenotypes_binary_trait true \
     --covariates_filename dx://project-<project_id>:/<path_to_covariates_file> \
     --covariates_columns PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 --regenie_test additive --prune_enabled true \
-    --prune_maf 0.05 --qc_maf 0.02 --qc_mac 0 --qc_geno 0.05 --qc_hwe 0 --qc_mind 0.05 --regenie_min_mac 30 \
+    --prune_maf 0.05 --qc_maf 0.02 --qc_mac 0 --qc_geno 0.05 --qc_hwe 0 --qc_mind 0.05 --prune_r2_threshold 0.9 --regenie_min_mac 30 \
     --regenie_min_imputation_score 0.2 --annotation_min_log10p 2 \
     --rsids_filename dx://project-GzJXf184kqq1512KkxGJ6f3Y:/data-annotation/rsids-v154-hg38.index.gz" \
     --destination project-GzJXf184kqq1512KkxGJ6f3Y:/<directory_on_dnanexus>/ --brief -y
