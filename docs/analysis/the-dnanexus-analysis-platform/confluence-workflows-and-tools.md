@@ -52,7 +52,7 @@ dx run app-swiss-army-knife \
 
 ### Identify Independent GWAS loci
 
-We have an [R script](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/blob/main/scripts/analysis/identify-independent-loci/identify_independent_loci.R) that carries out Greedy forward selection of independent GWAS loci based on distance, R², and D' criteria. Please see [the README file](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/tree/main/scripts/analysis/identify-independent-loci) for more information on how to run it on a slurm cluster or how to build your own DNAnexus app. For Confluence Concept 1 analysis. The DNAnexus applet can be found under the tools directory. When you click on it, you will see ![this interface](IdentifyIndependentGWASLoci.png). 
+We have an [R script](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/blob/main/scripts/analysis/identify-independent-loci/identify_independent_loci.R) that carries out Greedy forward selection of independent GWAS loci based on distance, R², and D' criteria. Please see [the README file](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/tree/main/scripts/analysis/identify-independent-loci) for more information on how to run it on a slurm cluster or how to build your own DNAnexus app. For Confluence Concept 1 analysis. The DNAnexus applet can be found under the tools directory. When you click on it, you will see ![this interface](https://github.com/confluence-breast-cancer-consortia/confluence-documentation/blob/main/docs/analysis/the-dnanexus-analysis-platform/IdentifyIndependentGWASLoci.png?raw=true). 
 you can click to fill in the input files to run the applet. 
 
 
