@@ -52,7 +52,26 @@ dx run app-swiss-army-knife \
 
 ### Identify Independent GWAS loci
 
-We have an [R script](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/blob/main/scripts/analysis/identify-independent-loci/identify_independent_loci.R) that carries out Greedy forward selection of independent GWAS loci based on distance, R², and D' criteria. Please see [the README file](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/tree/main/scripts/analysis/identify-independent-loci) for more information on how to run it on a slurm cluster or how to build your own DNAnexus app. For Confluence Concept 1 analysis. The DNAnexus applet can be found under the tools directory. When you click on it, you will see ![this interface](https://github.com/confluence-breast-cancer-consortia/confluence-documentation/blob/main/docs/analysis/the-dnanexus-analysis-platform/IdentifyIndependentGWASLoci.png?raw=true). 
+We have an [R script](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/blob/main/scripts/analysis/identify-independent-loci/identify_independent_loci.R) that carries out Greedy forward selection of independent GWAS loci based on distance, R², and D' criteria. Please see [the README file](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/tree/main/scripts/analysis/identify-independent-loci) for more information on how to run it on a slurm cluster or how to build your own DNAnexus app. For Confluence Concept 1 analysis. The DNAnexus applet can be found under the tools directory. 
+
+For example, if you want to run the algorithm for the pooled analysis, you can launch the job on your computer by running the following command, where
+- sigres_file: significant results file
+- ref_bim: reference panel bim
+- ld_file: pre-computed LD file
+- metaltype: Pooled/afr/amr/eur/eas
+
+```bash
+dx run /tools/identify_independent_loci \
+  -isigres_file=/ref/Mar20sigres.txt \
+  -iref_bim=/ref/merged_ref.bim \
+  -ild_file=/ref/Mar20.ld_pairs_5mb.ld \ 
+  -imetaltype=Pooled \
+  -ioutprefix=Mar30 \
+  --destination <project_name>:/<output_directory_on_dnanexus> \
+  -y
+```
+
+When you click on it, you will see ![this interface](https://github.com/confluence-breast-cancer-consortia/confluence-documentation/blob/main/docs/analysis/the-dnanexus-analysis-platform/IdentifyIndependentGWASLoci.png?raw=true). 
 you can click to fill in the input files to run the applet. 
 
 
