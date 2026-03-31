@@ -48,7 +48,13 @@ dx run app-swiss-army-knife \
    -iin=<project_name>:<path_to_summary_stat_file> \
    -icmd="Rscript manhattan_qq_plot.R --input_file <summary_stat_file> --outdir <output_directory> --num_cases <num_cases> --num_controls <num_controls>" \
    --destination <project_name>:/<output_directory_on_dnanexus> -y 
-```   
+```
+
+### Identify Independent GWAS loci
+
+We have an [R script](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/blob/main/scripts/analysis/identify-independent-loci/identify_independent_loci.R) that carries out Greedy forward selection of independent GWAS loci based on distance, R², and D' criteria. Please see [the README file](https://github.com/confluence-breast-cancer-consortia/Concept-1-Analyses/tree/main/scripts/analysis/identify-independent-loci) for more information on how to run it on a slurm cluster or how to build your own DNAnexus app. For Confluence Concept 1 analysis. The DNAnexus applet can be found under the tools directory. When you click on it, you will see ![this interface](IdentifyIndependentGWASLoci.png). 
+you can click to fill in the input files to run the applet. 
+
 
 ## Support
 
