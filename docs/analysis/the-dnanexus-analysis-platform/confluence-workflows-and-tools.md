@@ -67,12 +67,13 @@ dx run /tools/identify_independent_loci \
   -ild_file=/ref/Mar20.ld_pairs_5mb.ld \ 
   -imetaltype=Pooled \
   -ioutprefix=Mar30 \
+  --priority high \
   --destination <project_name>:/<output_directory_on_dnanexus> \
   -y
 ```
 
 When you click on it, you will see ![this interface](https://github.com/confluence-breast-cancer-consortia/confluence-documentation/blob/main/docs/analysis/the-dnanexus-analysis-platform/IdentifyIndependentGWASLoci.png?raw=true). 
-you can click to fill in the input files to run the applet. 
+you can click to fill in the input files to run the applet. We recommend using priority high to run the applet, as it could run for several hours. Using high priority will prevent it from getting killed halfway. 
 
 
 ## Support
